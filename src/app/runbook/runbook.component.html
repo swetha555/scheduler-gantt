@@ -1,1 +1,40 @@
-<gantt></gantt>
+<!-- <gantt></gantt> -->
+<div class="container-fluid">
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputRunbookName">Runbook Name</label>
+                <input type="text" class="form-control" id="inputRunbookName" placeholder="Name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputDate">Duration</label>
+                <input type="date" class="form-control" id="inputDate" placeholder="05-19-2019">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputWorkstream">Workstream</label>
+            <input type="text" class="form-control" id="inputWorkstream" placeholder="workstream">
+        </div>
+        <div class="form-group">
+            <label for="inputHolidays">Holidays</label>
+            <input type="text" class="form-control" id="inputHolidays" placeholder="Weekdays, Weekends">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputApprover">Approver</label>
+                <select id="inputApprover" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputApprover">Reviewer</label>
+                <select id="inputReviewer" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-info">Save</button>
+    </form>
+</div>

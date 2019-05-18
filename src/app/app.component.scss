@@ -1,10 +1,13 @@
 .app-component-root{
+    .top-panel{
+        background-color: #17a2b8 !important;
+
     .header{
         .nav-header{
             width:100%;
         }
         .navbar{
-            background-color: #3db9d3;
+            background-color:#17a2b8;;
             border-color:black;
         }
         // .navbar-default .navbar-nav > .active > a{
@@ -17,5 +20,5 @@
         //     }
         // }
     }
-
+    }
 }

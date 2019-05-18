@@ -1,12 +1,12 @@
-<ul class="nav nav-tabs">
+<ul class="nav nav-tabs" style="background-color:#a2aeaf">
   <li class="nav-item">
-    <a class="nav-link active" href="/create-runbook">Create Runbook</a>
+    <a class="nav-link"  (click) = "navigate('create')">Create Runbook</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled"  href="/task-hierarchy">Task Hierarchy</a>
+      <a class="nav-link"  (click) = "navigate('list')">Runbook List</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled"  href="/task-hierarchy">Runbook Config</a>
+    <a class="nav-link" (click) = "navigate('task')">Task Hierarchy</a>
   </li>
   <li class="nav-item">
     <a class="nav-link disabled" href="#">Tenants</a>
