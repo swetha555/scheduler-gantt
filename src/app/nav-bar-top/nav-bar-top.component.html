@@ -1,17 +1,29 @@
 <ul class="nav nav-tabs" style="background-color:#a2aeaf">
   <li class="nav-item">
-    <a class="nav-link"  (click) = "navigate('create')">Create Runbook</a>
+    <a class="nav-link" (click)="navigate('tenants')">Tenants</a>
   </li>
   <li class="nav-item">
-      <a class="nav-link"  (click) = "navigate('list')">Runbook List</a>
+    <a class="nav-link" (click)="navigate('create')">Create Runbook</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" (click) = "navigate('task')">Task Hierarchy</a>
+    <a class="nav-link" (click)="navigate('list')">Runbook List</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#">Tenants</a>
+    <a class="nav-link" (click)="navigate('task')">Task Hierarchy</a>
   </li>
   <li class="nav-item">
     <a class="nav-link disabled" href="#">User Settings</a>
   </li>
+  <!-- <li class="nav-item">
+      <a class="nav-link" routLinkActive = "active" [routerLink]="['/tenants']">Tenants</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routLinkActive = "active" [routerLink]="['/create-runbook']">Create Runbook</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routLinkActive = "active" [routerLink]="['/runbook-list']">Runbook List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routLinkActive = "active" [routerLink]="['/task-hierarchy']">Task Hierarchy</a>
+    </li> -->
 </ul>

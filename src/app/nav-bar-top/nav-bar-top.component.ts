@@ -24,5 +24,7 @@ export class NavBarTopComponent implements OnInit {
       this.router.navigate(['..', "create-runbook"], { relativeTo: this.route });
     else if (tabName == 'list')
       this.router.navigate(['..', "runbook-list"], { relativeTo: this.route });
+      else if (tabName == 'tenants')
+      this.router.navigate(['..', "tenants"], { relativeTo: this.route });
   }
 }

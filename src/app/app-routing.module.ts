@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { RunbookComponent } from './runbook/runbook.component';
 import { RunbookDetailsComponent } from './runbook/runbook-details/runbook-details.component';
 import { RunbookListComponent } from './runbook/runbook-list/runbook-list.component';
+import { TenantsComponent } from './tenants/tenants.component';
 
 
 const routes: Routes =  [
@@ -18,6 +19,11 @@ const routes: Routes =  [
     path: 'runbook-list',
     component: RunbookListComponent,
     data: { title: 'List' }
+  },
+  {
+    path: 'tenants',
+    component: TenantsComponent,
+    data: { title: 'tenants' }
   },
   { path: '',
     redirectTo: '/create-runbook',
